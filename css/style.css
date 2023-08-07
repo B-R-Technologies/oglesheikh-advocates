@@ -8,9 +8,8 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: Medicare Medical
-@Author: Naim LAsker
-@Developed By: Naim LAsker
+@Author: RB & Wanjala
+@Developed By: B&R Technologies
 
 
 =====================================================================*/
@@ -151,7 +150,7 @@ button:focus {
   background: -ms-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: -o-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: linear-gradient(90deg, #f13d80 0%, #f48464 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent; }
 
 /* End Gradient Area css
@@ -461,6 +460,14 @@ button:focus {
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 70px; }
+
+    /* Working on the image on the navbar */
+  body > header > div > nav > div > a > img {
+    /* display: none; */
+    width: 200px;
+    height: 100px;
+    border-radius: 5%; 
+    }
 
 #search_input_box {
   text-align: center;
